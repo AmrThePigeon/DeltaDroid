@@ -1,6 +1,5 @@
 #!/bin/bash
 termux-setup-storage
-apt update && apt upgrade
 pkg install apksigner
 pkg install xdelta3
 pkg install zipalign
@@ -25,7 +24,9 @@ chapter2xpatch="$transfolder/chapter2/chapter2.xdelta"
 chapter3xpatch="$transfolder/chapter3/chapter3.xdelta"
 chapter4xpatch="$transfolder/chapter4/chapter4.xdelta"
 keystorefile="$HOME/DeltaDroid/SigningKey/UselessSigKey.keystore"
-unzip "$GameAssets/game_sfx.zip"
+mkdir "$transfolder/chapter0"
+unzip -o -q "$GameAssets/game_sfx.zip" -d "$GameAssets"
+rm "$GameAssets/game_sfx.zip"
 echo "Copying Misc Files..."
 cp -r "$musfiles" "$transfolder"
 cp -r "$vidfiles" "$transfolder/chapter3"
