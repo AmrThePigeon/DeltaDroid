@@ -1,7 +1,6 @@
 #!/bin/bash
 termux-setup-storage
 apt update && apt upgrade
-curl -s https://raw.githubusercontent.com/rendiix/termux-apktool/main/install.sh | bash
 pkg install apksigner
 pkg install xdelta3
 pkg install zipalign
@@ -10,7 +9,7 @@ read -r -p "Enter DELTARUNE path: " gamepath
 gamepath="${gamepath%/}"
 echo "Copying Game Files..."
 cp -r "$gamepath" "$HOME"
-REALgamepath="$HOME/Deltarune"
+REALgamepath="$HOME/DELTARUNE"
 GameAssets="$HOME/DeltaDroid/DeltaDroid/assets/"
 transfolder="$HOME/DeltaDroid/DeltaDroid/assets/trans-folder"
 musfiles="$REALgamepath/mus/"
