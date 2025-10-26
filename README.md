@@ -12,6 +12,8 @@ apt update && apt upgrade && curl -s https://raw.githubusercontent.com/AmrThePig
 // This project isn't affiliated with toby fox, Please buy the game before using. and use at your own responsibility
 
 This project was made for fun so let me know if you enjoy it
-And also please join my discord server https://discord.gg/vY8CsZHkjR
+And also please join my discord server 
+https://discord.gg/vY8CsZHkjR
+
 This page isn't well updated yet (It will include the credits, Manual Installation instead of one line command, etc) I will update it as soon as I can so please be patient
 Thanks✌️
