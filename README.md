@@ -3,9 +3,12 @@
 A mod for DELTARUNE to make it playable on mobile
 
 # Installation
-
-- One line command
-
+- **Prerequisites**
+1- Arm64 android phone
+2- Termux (Terminal Emulator for android)
+3- 4-5 GB free storage
+**Installation**:
+- Execute this one line command
 ```
 apt update && apt upgrade && pkg install git && curl -s https://raw.githubusercontent.com/AmrThePigeon/DeltaDroid/main/install-apktool.sh | bash && git clone https://github.com/AmrThePigeon/DeltaDroid && chmod +x ./DeltaDroid/DeltaDroid-Installer.bash && ./DeltaDroid/DeltaDroid-Installer.bash
 ```
