@@ -4,9 +4,13 @@ A mod for DELTARUNE to make it playable on mobile
 
 # Installation
 **Prerequisites**
--Arm64 android phone
--Termux (Terminal Emulator for android)
--4-5 GB free storage
+
+1- Arm64 android phone
+
+2- Termux (Terminal Emulator for android)
+
+3- 4-5 GB free storage
+
 **Installation**:
 - Execute this one line command
 ```
