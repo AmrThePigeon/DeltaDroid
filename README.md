@@ -19,7 +19,7 @@ apt update && apt upgrade && pkg install git && curl -s https://raw.githubuserco
 
 **This script will basically do the following:**
 
-Installs Apktool (Ported to Termux by [rendix](https://github.com/rendiix)
+Installs Apktool (Ported to Termux by [rendix](https://github.com/rendiix))
 And apksigner, zipalign, xdelta3 and unzip
 
 Copies Deltarune files to the cloned repository directory
