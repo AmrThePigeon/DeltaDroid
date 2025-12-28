@@ -11,6 +11,8 @@ A mod for DELTARUNE to make it playable on mobile
 
 3- 4-5 GB free storage
 
+4- Deltarune files copied from PC
+
 **Installation**:
 - Execute this one line command
 ```
