@@ -2,7 +2,7 @@
 set -e
 read -r -p "Enter DELTARUNE path: " gamepath
 gamepath="${gamepath%/}"
-if [[ ! -f "$gamepath/data.win" && ! -f "$gamepath/chapter1_windows/data.win" && ! -f "$gamepath/chapter2_windows/data.win" && ! -f "$gamepath/chapter3_windows/data.win" && ! -f "$gamepath/chapter4_windows/data.win" && ! -f "$gamepath/chapter5_windows/data.win"]]; then
+if [[ ! -f "$gamepath/data.win" && ! -f "$gamepath/chapter1_windows/data.win" && ! -f "$gamepath/chapter2_windows/data.win" && ! -f "$gamepath/chapter3_windows/data.win" && ! -f "$gamepath/chapter4_windows/data.win" && ! -f "$gamepath/chapter5_windows/data.win" ]]; then
    echo -e "\033[31mError: game files not found\033[0m"
 fi
 
