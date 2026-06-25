@@ -18,7 +18,7 @@ A mod for DELTARUNE to make it playable on mobile
 **Installation**:
 - Execute this one line command
 ```
-apt update && apt upgrade && pkg install git && curl -s https://raw.githubusercontent.com/AmrThePigeon/DeltaDroid/main/install-apktool.sh | bash && git clone https://github.com/AmrThePigeon/DeltaDroid && chmod +x ./DeltaDroid/DeltaDroid-Installer.bash && ./DeltaDroid/DeltaDroid-Installer.bash
+pkg install wget && rm -f initial-script.bash >/dev/null 2>&1 && curl -L -O https://raw.githubusercontent.com/AmrThePigeon/DeltaDroid/refs/heads/main/initial-script.bash && chmod +x initial-script.bash && ./initial-script.bash
 ```
 
 **This script will basically do the following:**
