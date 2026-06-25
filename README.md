@@ -1,5 +1,7 @@
 # DeltaDroid
 
+**The port was updated to chapter 5 recently. Check it out!**
+
 A mod for DELTARUNE to make it playable on mobile
 
 # Installation
@@ -9,7 +11,7 @@ A mod for DELTARUNE to make it playable on mobile
 
 2- Termux (Terminal Emulator for android)
 
-3- 4-5 GB free storage
+3- 5 GB free storage
 
 4- Deltarune files copied from PC
 
