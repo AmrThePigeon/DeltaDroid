@@ -16,7 +16,7 @@ fi
 apt update && apt upgrade
 pkg install apksigner
 pkg install xdelta3
-pkg install zipalign
+pkg install aapt
 pkg install unzip
 pkg install git
 
