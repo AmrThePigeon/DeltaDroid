@@ -1,12 +1,5 @@
 #!/bin/bash
 set -e
-
-scriptlocation=$(pwd -L)
-scriptdeletion() {
-rm -f "$scriptlocation/initial-script"
-}
-trap scriptdeletion EXIT
-
 if termux-setup-storage; then
    echo -e "\e[32mAccept the permissions\e[0m"
 else
