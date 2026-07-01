@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+
 
 scriptlocation=$(pwd -L)
 scriptdeletion() {
@@ -7,7 +7,11 @@ rm -f "$scriptlocation/initial-script"
 }
 trap scriptdeletion EXIT
 
+set +e
+
 termux-setup-storage
+
+set -e
 
 if [[ -d "$HOME/DeltaDroid" ]]; then
    rm -rf "$HOME/DeltaDroid"
