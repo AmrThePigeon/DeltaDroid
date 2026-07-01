@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e
 
 scriptlocation=$(pwd -L)
 scriptdeletion() {
@@ -7,11 +7,11 @@ rm -f "$scriptlocation/initial-script"
 }
 trap scriptdeletion EXIT
 
-set +e
-
-termux-setup-storage
-
-set -e
+if termux-setup-storage; then
+   echo -e "\e[32mAccept the permissions\e[0m"
+else
+   echo -e "\e[32mPermissions already accepted\e[0m"
+fi
 
 if [[ -d "$HOME/DeltaDroid" ]]; then
    rm -rf "$HOME/DeltaDroid"
