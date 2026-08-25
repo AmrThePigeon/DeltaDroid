@@ -51,7 +51,7 @@ https://discord.gg/sdnA69J5Bq
 
 - Game_change runtime - AngelaPuzzle & Booker
 
-- [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool) - [UnderminersTeam](https://github.com/UnderminersTeam)
+- DELTARUNE data.win editing and usage of scripts - Using [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool) by [UnderminersTeam](https://github.com/UnderminersTeam)
 
 There are more people I'm gonna mention soon
 
