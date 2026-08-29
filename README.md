@@ -2,6 +2,8 @@
 
 **The port was updated to chapter 5 recently. Check it out!**
 
+Note: This port is REALLY outdated and I am too lazy to update. I can update it if I received any update request even if a single person or more
+
 A mod for DELTARUNE to make it playable on mobile
 
 # Installation
